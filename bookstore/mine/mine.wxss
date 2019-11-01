@@ -1,0 +1,116 @@
+/* bookstore/mine/mine.wxss */
+@import "../../assets/font/iconfont.wxss";
+.empty{
+  height: 40px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  display: flex;
+  padding: 5px 15px;
+  z-index: 2;
+  background: #fff
+}
+
+.header_logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ed424b;
+  font-family: '楷体';
+  width: 30%;
+}
+
+.header_more {
+  width: 30%;
+  text-align: right;
+}
+
+.header_gender {
+  text-align: center;
+  flex: 1;
+}
+
+.header_gender text {
+  border: 1px solid #ed424b;
+  padding: 2px 5px;
+  font-size: 12px;
+  color: #666;
+}
+
+.header_gender .gender_man {
+  border-right: none;
+  background: #ed424b;
+  color: white;
+}
+
+.title {
+  background: #c3c3c3;
+  color: #666;
+  z-index: 100;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.title text {
+  color: #000;
+}
+
+swiper {
+  width: 80%;
+  margin: 0 10%;
+  height: 130px;
+}
+
+swiper image {
+  height: 120px;
+  background-size: contain;
+}
+
+.bookDetail {
+  background: #f9f9f9;
+  font-size: 12px;
+  color: #666;
+  height: 150px;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.bookDetail {
+  display: flex;
+}
+
+.bookDetail image {
+  width: 75px;
+  height: 120px;
+  background-size: contain;
+  margin: 15px 10px;
+}
+
+.book_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookName {
+  font-size: 14px;
+  color: orange;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.author {
+  font-size: 13px;
+  color: skyblue;
+  line-height: 24px;
+}
+
+.info {
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}

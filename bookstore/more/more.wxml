@@ -1,0 +1,12 @@
+<!--bookstore/more/more.wxml-->
+<view class="box">
+  <text>路由点击书名:{{name}}</text>
+  <input type="text" placeholder="输入书名" bindinput="search" value="{{content}}"></input>
+  <view><text>搜索结果</text></view>
+  <view class="content" wx:if="{{bookMessage}}">
+  <view wx:for="{{bookMessage}}" class="search_book" bindtap="chose" data-name="{{item}}">{{item}}</view>
+  </view>
+  <view wx:else class="content">
+    暂无数据
+  </view>
+</view>

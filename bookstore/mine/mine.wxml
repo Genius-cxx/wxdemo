@@ -1,0 +1,28 @@
+<!--bookstore/mine/mine.wxml-->
+
+<view class="header">
+  <text class="header_logo">迅读小说网</text>
+  <view class="header_gender">
+    <text class="gender_man">男生</text>
+    <text>女生</text>
+  </view>
+  <view class="header_more">
+    <text class="iconfont icon-myxian">click</text>
+  </view>
+</view>
+<view class="empty"></view>
+<swiper indicator-dots='true' autoplay='true' interval='5000' duration="500" circular="true">
+  <swiper-item wx:for="{{bookList}}">
+    <image src="{{item.book_cover}}"></image>
+  </swiper-item>
+</swiper>
+<view wx:for="{{bookList}}" class="bookDetail" data-name="{{item.bookname}}" bindtap="go">
+  <view class="book_img">
+    <image src="{{item.book_cover}}"></image>
+  </view>
+  <view class="book_text">
+    <text class="bookName">{{item.bookname}}</text>
+    <text class="author">{{item.author_name}}</text>
+    <text class="info">{{item.book_info}}</text>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+/* bookstore/more/more.wxss */
+.box{
+  padding: 0 20px;
+}
+.box input{
+  border: 1px solid #c3c3c3;
+}
+.box .content{
+  border: 1px solid #c3c3c3;
+}
+.search_book:hover{
+  background: skyblue;
+  color: #fff
+}

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "bookstore/mine/mine",
+    "bookstore/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "书城",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "iconPath":"assets/image/home-xian.png",
+        "selectedIconPath": "assets/image/home-mian.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "assets/image/kefu-xian.png",
+        "selectedIconPath": "assets/image/kefu-mian.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "iconPath": "assets/image/myxian.png",
+        "selectedIconPath": "assets/image/mymian.png",
+        "pagePath": "bookstore/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wx057efb3caa5bfe24"
+  ]
+}

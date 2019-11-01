@@ -1,0 +1,34 @@
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-kefu-xian:before {
+  content: "\e606";
+}
+
+.icon-home-xian:before {
+  content: "\e607";
+}
+
+.icon-kefu-mian:before {
+  content: "\e608";
+}
+
+.icon-home-mian:before {
+  content: "\e609";
+}
+
+.icon-myxian:before {
+  content: "\e610";
+}
+
+.icon-mymian:before {
+  content: "\e614";
+}
+
