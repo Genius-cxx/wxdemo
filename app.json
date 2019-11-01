@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "bookstore/mine/mine",
-    "bookstore/more/more"
+    "bookstore/more/more",
+    "article/detail/detail",
+    "article/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,7 +17,7 @@
   "tabBar": {
     "list": [
       {
-        "iconPath":"assets/image/home-xian.png",
+        "iconPath": "assets/image/home-xian.png",
         "selectedIconPath": "assets/image/home-mian.png",
         "pagePath": "pages/index/index",
         "text": "首页"
@@ -30,7 +32,13 @@
         "iconPath": "assets/image/myxian.png",
         "selectedIconPath": "assets/image/mymian.png",
         "pagePath": "bookstore/mine/mine",
-        "text": "我的"
+        "text": "我的书城"
+      },
+      {
+        "iconPath": "assets/image/myxian.png",
+        "selectedIconPath": "assets/image/mymian.png",
+        "pagePath": "article/home/home",
+        "text": "段子"
       }
     ]
   },
